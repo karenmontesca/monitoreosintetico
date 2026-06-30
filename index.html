@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio Instana Synthetic Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Laboratorio Instana</h1>
+    <p>Página de prueba para Synthetic Monitoring (Browser Simple / Browser Script)</p>
+  </header>
+
+  <main id="main-content">
+    <!-- Este contenedor se llena (o no) dinámicamente vía app.js -->
+  </main>
+
+  <section id="login-section">
+    <h2>Mini login de prueba (para Browser Script)</h2>
+    <input id="user" placeholder="usuario" />
+    <input id="pass" type="password" placeholder="contraseña" />
+    <button id="loginBtn">Entrar</button>
+    <div id="result"></div>
+  </section>
+
+  <footer>
+    <p>Estado del API: <span id="api-status">consultando...</span></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
