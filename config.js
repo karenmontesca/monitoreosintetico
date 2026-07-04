@@ -4,5 +4,5 @@
 // Vuelve a ponerlo en false y push de nuevo para volver al estado OK.
 
 window.LAB_CONFIG = {
-  BROKEN_MODE: true
+  BROKEN_MODE: false
 };
